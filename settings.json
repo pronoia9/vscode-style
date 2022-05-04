@@ -1,0 +1,112 @@
+{
+  // Fluorescent Highlights (mac)
+  //"vscode_custom_css.imports": ["file:///Users/xoxo/Library/Application Support/Code/User/fluorescent.css"],
+  // Fluorescent Highlights (windows)
+  "vscode_custom_css.imports": ["file:///C:/Users/xoxo/AppData/Roaming/Code/User/fluorescent.css"],
+
+  // AI Extensions
+  // "kite.showWelcomeNotificationOnStartup": false,
+  // "ponicode.token": "31886ed6-df4e-4ffc-8a17-c5860acbbfda",
+
+  "workbench.colorCustomizations": {},
+
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "smooth",
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.preferredLightColorTheme": "One Dark Pro",
+  "workbench.preferredHighContrastColorTheme": "One Dark Pro",
+
+  "editor.fontFamily": "'Operator Mono Light','OperatorMono-Light','FiraCode-Light','Avenir Next','Helvetica Neue'",
+  "editor.fontSize": 14,
+
+  "editor.inlineHints.fontFamily": "'Operator Mono Light','OperatorMono-Light','FiraCode-Light','Avenir Next','Helvetica Neue'",
+  "editor.inlineHints.fontSize": 14,
+
+  "editor.codeLensFontFamily": "'Operator Mono Light','OperatorMono-Light','FiraCode-Light','Avenir Next','Helvetica Neue'",
+  "editor.codeLensFontSize": 14,
+
+  "debug.console.fontFamily": "'Operator Mono Light','OperatorMono-Light','FiraCode-Light','Avenir Next','Helvetica Neue'",
+  "debug.console.fontSize": 14,
+
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontLigatures": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.decorations.colors": true,
+  "editor.formatOnType": true,
+  "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "oneDarkPro.vivid": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "editor.tokenColorCustomizations": {
+    // Theme name (ie Visual Studio Code Dark)
+    "[One Dark Pro]": {
+      "textMateRules": [
+        {
+          "name": "HTML Brackets",
+          "scope": ["punctuation.definition.tag.begin.html", "meta.tag.structure.head.end.html", "punctuation.definition.tag.end.html", "meta.tag.structure.head.end.html"],
+          "settings": {
+            "foreground": "#ffcc00"
+          }
+        },
+        {
+          "name": "JSX Brackets",
+          "scope": ["punctuation.definition.tag.jsx"],
+          "settings": {
+            "foreground": "#ffcc00"
+          }
+        }
+      ]
+    }
+  },
+  "prettier.singleQuote": true,
+  "prettier.withNodeModules": true,
+  "prettier.jsxSingleQuote": true,
+  "git.enableSmartCommit": true,
+  "eslint.alwaysShowStatus": true,
+  "explorer.compactFolders": false,
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "editor.tabSize": 1.5,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "sync.gist": "c02fda1ae2563de53ab6d6a49d00fa78",
+  "terminal.integrated.cursorStyle": "line",
+  "prettier.jsxBracketSameLine": true,
+  "prettier.printWidth": 99999999,
+  "json.maxItemsComputed": 500000000000,
+  "diffEditor.maxComputationTime": 0,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.preferredDarkColorTheme": "One Dark Pro",
+  "oneDarkPro.editorTheme": "Just Black",
+  "bracketPairColorizer.depreciation-notice": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "scm.inputFontSize": 14,
+  "markdown.preview.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "window.zoomLevel": 1.25,
+  "json.schemas": [],
+  "livePreview.notifyOnOpenLooseFile": false,
+  "git.confirmSync": false,
+  "editor.codeActionsOnSave": {},
+  "beautify.config": "",
+  "editor.formatOnPaste": true,
+  "eslint.format.enable": true
+}
