@@ -80,7 +80,7 @@
   "gitlens.advanced.messages": {
     "suppressGitMissingWarning": true
   },
-  "editor.tabSize": 1.5,
+  "editor.tabSize": 2,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
