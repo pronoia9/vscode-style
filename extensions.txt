@@ -1,0 +1,37 @@
+code --list-extensions
+aaron-bond.better-comments
+be5invis.vscode-custom-css
+christian-kohler.npm-intellisense
+christian-kohler.path-intellisense
+CoenraadS.bracket-pair-colorizer
+cweijan.epub-reader
+dbaeumer.vscode-eslint
+DigitalBrainstem.javascript-ejs-support
+eamodio.gitlens
+eg2.vscode-npm-script
+erikphansen.vscode-toggle-column-selection
+esbenp.prettier-vscode
+formulahendry.auto-close-tag
+hex-ci.stylelint-plus
+kamikillerto.vscode-colorize
+mgmcdermott.vscode-language-babel
+ms-vscode.live-server
+PKief.material-icon-theme
+pnp.polacode
+ritwickdey.LiveServer
+Shan.code-settings-sync
+vscode-icons-team.vscode-icons
+WallabyJs.quokka-vscode
+wwm.better-align
+xabikos.JavaScriptSnippets
+xabikos.ReactSnippets
+yzhang.markdown-all-in-one
+zhuangtongfa.material-theme
+
+* disabled *
+alefragnani.project-manager
+GraphQL.vscode-graphql
+kiteco.kite
+mquandalle.graphql
+naumovs.color-highlight
+Ponicode.ponicode
