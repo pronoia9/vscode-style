@@ -2,6 +2,7 @@ code --list-extensions
 aaron-bond.better-comments
 alefragnani.project-manager
 be5invis.vscode-custom-css
+bungcip.better-toml
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 CoenraadS.bracket-pair-colorizer
@@ -24,6 +25,7 @@ PKief.material-icon-theme
 pnp.polacode
 pranaygp.vscode-css-peek
 ritwickdey.LiveServer
+serayuzgur.crates
 Shan.code-settings-sync
 softwaredotcom.swdc-vscode
 vscode-icons-team.vscode-icons
