@@ -76,7 +76,6 @@
   "prettier.jsxSingleQuote": true,
   "git.enableSmartCommit": true,
   "eslint.alwaysShowStatus": true,
-  "explorer.compactFolders": false,
   "gitlens.advanced.messages": {
     "suppressGitMissingWarning": true
   },
@@ -108,5 +107,9 @@
   "editor.codeActionsOnSave": {},
   "beautify.config": "",
   "editor.formatOnPaste": true,
-  "eslint.format.enable": true
+  "eslint.format.enable": true,
+  "explorer.compactFolders": false,
+  "explorer.fileNesting.enabled": true,
+  "workbench.tree.indent": 16,
+  "workbench.tree.renderIndentGuides": "always"
 }
