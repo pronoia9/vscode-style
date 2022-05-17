@@ -6,7 +6,7 @@
 
   // AI Extensions
   // "kite.showWelcomeNotificationOnStartup": false,
-  // "ponicode.token": "31886ed6-df4e-4ffc-8a17-c5860acbbfda",
+  // "ponicode.token": "31886ed6-df4e-4ffc-8a17-c5860acbbfdb",
 
   "workbench.colorCustomizations": {},
 
@@ -16,17 +16,19 @@
   "workbench.preferredLightColorTheme": "One Dark Pro",
   "workbench.preferredHighContrastColorTheme": "One Dark Pro",
 
-  "editor.fontFamily": "'Operator Mono Light','OperatorMono-Light','FiraCode-Light','Avenir Next','Helvetica Neue'",
+  "editor.fontFamily": "'', 'Operator Mono Light','OperatorMono-Light','FiraCode Nerd Font Light', 'FiraCode-Light'",
   "editor.fontSize": 14,
 
-  "editor.inlineHints.fontFamily": "'Operator Mono Light','OperatorMono-Light','FiraCode-Light','Avenir Next','Helvetica Neue'",
+  "editor.inlineHints.fontFamily": "'Operator Mono Light', 'OperatorMono-Light', 'FiraCode Nerd Font Light', 'FiraCode-Light'",
   "editor.inlineHints.fontSize": 14,
 
-  "editor.codeLensFontFamily": "'Operator Mono Light','OperatorMono-Light','FiraCode-Light','Avenir Next','Helvetica Neue'",
+  "editor.codeLensFontFamily": "'Operator Mono Light', 'OperatorMono-Light', 'FiraCode Nerd Font Light', 'FiraCode-Light'",
   "editor.codeLensFontSize": 14,
 
-  "debug.console.fontFamily": "'Operator Mono Light','OperatorMono-Light','FiraCode-Light','Avenir Next','Helvetica Neue'",
+  "debug.console.fontFamily": "'Operator Mono Light', 'OperatorMono-Light', 'FiraCode Nerd Font Light', 'FiraCode-Light'",
   "debug.console.fontSize": 14,
+
+  "terminal.integrated.fontFamily": "'Operator Mono Light', 'FiraCode Nerd Font Mono', 'CaskaydiaCove Nerd Font'",
 
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontLigatures": true,
@@ -56,7 +58,12 @@
       "textMateRules": [
         {
           "name": "HTML Brackets",
-          "scope": ["punctuation.definition.tag.begin.html", "meta.tag.structure.head.end.html", "punctuation.definition.tag.end.html", "meta.tag.structure.head.end.html"],
+          "scope": [
+            "punctuation.definition.tag.begin.html",
+            "meta.tag.structure.head.end.html",
+            "punctuation.definition.tag.end.html",
+            "meta.tag.structure.head.end.html"
+          ],
           "settings": {
             "foreground": "#ffcc00"
           }
@@ -88,7 +95,7 @@
   "sync.gist": "c02fda1ae2563de53ab6d6a49d00fa78",
   "terminal.integrated.cursorStyle": "line",
   "prettier.jsxBracketSameLine": true,
-  "prettier.printWidth": 99999999,
+  "prettier.printWidth": 135,
   "json.maxItemsComputed": 500000000000,
   "diffEditor.maxComputationTime": 0,
   "security.workspace.trust.untrustedFiles": "open",
@@ -111,5 +118,6 @@
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
   "workbench.tree.indent": 16,
-  "workbench.tree.renderIndentGuides": "always"
+  "workbench.tree.renderIndentGuides": "always",
+  "gitlens.gitCommands.skipConfirmations": ["fetch:command", "stash-push:command", "switch:command", "branch-create:command"]
 }
