@@ -2,7 +2,7 @@
   // Fluorescent Highlights (mac)
   //"vscode_custom_css.imports": ["file:///Users/xoxo/Library/Application Support/Code/User/fluorescent.css"],
   // Fluorescent Highlights (windows)
-  "vscode_custom_css.imports": ["file:///C:/Users/xoxo/AppData/Roaming/Code/User/fluorescent.css"],
+  // "vscode_custom_css.imports": ["file:///C:/Users/xoxo/AppData/Roaming/Code/User/fluorescent.css"],
 
   // AI Extensions
   // "kite.showWelcomeNotificationOnStartup": false,
@@ -119,5 +119,13 @@
   "explorer.fileNesting.enabled": true,
   "workbench.tree.indent": 16,
   "workbench.tree.renderIndentGuides": "always",
-  "gitlens.gitCommands.skipConfirmations": ["fetch:command", "stash-push:command", "switch:command", "branch-create:command"]
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command",
+    "branch-create:command"
+  ],
+  "terminal.external.windowsExec": "C:\\Users\\xoxo\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
+  "terminal.explorerKind": "external",
+  "kite.showWelcomeNotificationOnStartup": false,
 }
