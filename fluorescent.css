@@ -1,82 +1,53 @@
-.mtk0 {
-}
-
-.mtk1 {
-}
-
-.mtk2 {
-}
-
+/* .mtk0 {} */
+/* .mtk1 {} */
+/* .mtk2 {} */
 .mtk3 {
   font-family: 'Operator Mono Light';
   font-style: italic;
-  /* text-shadow: 0 0 2px #001716, 0 0 5px #03edf933, 0 0 10px #ffff6633; */
+  text-shadow: 0 0 2px #001716, 0 0 5px #03edf933, 0 0 10px #ffff6633;
 }
-
 .mtk4 {
   font-family: 'Operator Mono Light';
   font-style: italic;
 }
-
-.mtk5 {
-}
-
+/* .mtk5 {} */
 .mtk6 {
-  /* text-shadow: 0 0 2px #001716, 0 0 5px #03edf933, 0 0 10px #ffff6633; */
+  text-shadow: 0 0 2px #001716, 0 0 5px #03edf933, 0 0 10px #ffff6633;
 }
-
 .mtk7 {
   /* text-shadow: 0 0 2px #000, 0 0 10px #8a2dc066, 0 0 5px #8a2dc066, 0 0 25px #8a2dc066; */
   /* text-shadow: 0 0 2px #393a33, 0 0 35px #ffffff44, 0 0 10px #fc199a, 0 0 2px #fc199a; */
 }
-
 .mtk8 {
-  /* text-shadow: 0 0 2px #100c0f, 0 0 3px #ffaa0099, 0 0 5px #ffaa0099, 0 0 10px #ffaa0099; */
-  /* text-shadow: 0 0 2px #100c0f, 0 0 10px #257c55, 0 0 35px #212724; */
+  text-shadow: 0 0 2px #100c0f, 0 0 3px #ffaa0099, 0 0 5px #ffaa0099, 0 0 10px #ffaa0099;
+  text-shadow: 0 0 2px #100c0f, 0 0 10px #257c55, 0 0 35px #212724;
 }
-
 .mtk9 {
-  /* text-shadow: 0 0 2px #100c0f, 0 0 3px #2bb9158a, 0 0 5px #2bb9158a, 0 0 10px #2bb9158a; */
+  text-shadow: 0 0 2px #100c0f, 0 0 3px #2bb9158a, 0 0 5px #2bb9158a, 0 0 10px #2bb9158a;
 }
-
 .mtk10 {
   /* text-shadow: 0 0 2px #393a33, 0 0 35px #ffffff44, 0 0 10px #fc199a, 0 0 2px #fc199a; */
 }
-
-.mtk11 {
-}
-
-.mtk12 {
-}
-
+/* .mtk11 {} */
+/* .mtk12 {} */
 .mtk13 {
   font-family: 'Operator Mono Light';
   font-style: italic;
 }
-
-.mtk14 {
-}
-
-.mtk15 {
-}
-
+/* .mtk14 {} */
+/* .mtk15 {} */
 .mtk16 {
   font-family: 'Operator Mono Light';
   font-style: italic;
 }
-
-.mtki {
-}
-.mtkb {
-}
-.mtku {
-}
+/* .mtki {} */
+/* .mtkb {} */
+/* .mtku {} */
 
 .monaco-icon-label-description-container .label-name {
   font-family: 'Operator Mono Light';
   font-style: italic;
 }
-
 .tabs-container .monaco-icon-label-description-container .label-name,
 .sidebar .monaco-icon-label-description-container .label-name,
 .quick-open-row .monaco-icon-label-description-container .label-name {
@@ -85,55 +56,21 @@
 
 /* ----------------------------------------------------------------------------------------- */
 
-/* .mtk1 {
-   color: #b3b3d4;
-}
+/* .mtk1 { color: #b3b3d4; }
+.mtk2 { color: #1d1d26; }
+.mtk3 { color: #504e6e; }
+.mtk4 { color: #cc66ff; }
+.mtk5 { color: #00d364; }
+.mtk6 { color: #ff3399; }
+.mtk7 { color: #f8f8f0; }
+.mtk8 { color: #00bfff; }
+.mtk9 { color: #ffcc66; }
+.mtk10 { color: #00ced1; }
+.mtki { font-style: italic; }
+.mtkb { font-weight: bold; }
+.mtku { text-decoration: underline; } */
 
-.mtk2 {
-   color: #1d1d26;
-}
-
-.mtk3 {
-   color: #504e6e;
-}
-
-.mtk4 {
-   color: #cc66ff;
-}
-
-.mtk5 {
-   color: #00d364;
-}
-
-.mtk6 {
-   color: #ff3399;
-}
-
-.mtk7 {
-   color: #f8f8f0;
-}
-
-.mtk8 {
-   color: #00bfff;
-}
-
-.mtk9 {
-   color: #ffcc66;
-}
-
-.mtk10 {
-   color: #00ced1;
-}
-
-.mtki {
-   font-style: italic;
-}
-.mtkb {
-   font-weight: bold;
-}
-.mtku {
-   text-decoration: underline;
-} */
+/* ----------------------------------------------------------------------------------------- */
 
 /* https://gist.github.com/nickytonline/8086319bf5836797ee3dea802a77000d */
-https://github.com/kencrocken/FiraCodeiScript
+/* https://github.com/kencrocken/FiraCodeiScript */

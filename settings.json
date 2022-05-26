@@ -2,7 +2,7 @@
   // Fluorescent Highlights (mac)
   //"vscode_custom_css.imports": ["file:///Users/xoxo/Library/Application Support/Code/User/fluorescent.css"],
   // Fluorescent Highlights (windows)
-  // "vscode_custom_css.imports": ["file:///C:/Users/xoxo/AppData/Roaming/Code/User/fluorescent.css"],
+  "vscode_custom_css.imports": ["file:///C:/Users/xoxo/AppData/Roaming/Code/User/fluorescent.css"],
 
   // AI Extensions
   // "kite.showWelcomeNotificationOnStartup": false,
