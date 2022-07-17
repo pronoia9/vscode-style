@@ -1,57 +1,30 @@
 {
-  // Fluorescent Highlights (mac)
-  //"vscode_custom_css.imports": ["file:///Users/xoxo/Library/Application Support/Code/User/fluorescent.css"],
-  // Fluorescent Highlights (windows)
-  "vscode_custom_css.imports": ["file:///C:/Users/xoxo/AppData/Roaming/Code/User/fluorescent.css"],
+  "sync.gist": "c02fda1ae2563de53ab6d6a49d00fa78",
 
-  // AI Extensions
-  // "kite.showWelcomeNotificationOnStartup": false,
-  // "ponicode.token": "31886ed6-df4e-4ffc-8a17-c5860acbbfdb",
+  "window.zoomLevel": 1, // 0.5 for macbook, 0 for windows
 
   "workbench.colorCustomizations": {},
-
-  "editor.cursorSmoothCaretAnimation": true,
-  "editor.cursorBlinking": "smooth",
   "workbench.colorTheme": "One Dark Pro",
   "workbench.preferredLightColorTheme": "One Dark Pro",
   "workbench.preferredHighContrastColorTheme": "One Dark Pro",
-
-  "editor.fontFamily": "'', 'Operator Mono Light','OperatorMono-Light','FiraCode Nerd Font Light', 'FiraCode-Light'",
-  "editor.fontSize": 14,
-
-  "editor.inlineHints.fontFamily": "'Operator Mono Light', 'OperatorMono-Light', 'FiraCode Nerd Font Light', 'FiraCode-Light'",
-  "editor.inlineHints.fontSize": 14,
-
-  "editor.codeLensFontFamily": "'Operator Mono Light', 'OperatorMono-Light', 'FiraCode Nerd Font Light', 'FiraCode-Light'",
-  "editor.codeLensFontSize": 14,
-
-  "debug.console.fontFamily": "'Operator Mono Light', 'OperatorMono-Light', 'FiraCode Nerd Font Light', 'FiraCode-Light'",
-  "debug.console.fontSize": 14,
-
-  "terminal.integrated.fontFamily": "'Operator Mono Light', 'FiraCode Nerd Font Mono', 'CaskaydiaCove Nerd Font'",
-
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.fontLigatures": true,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "workbench.iconTheme": "vscode-icons",
   "workbench.editor.decorations.colors": true,
+  "workbench.preferredDarkColorTheme": "One Dark Pro",
+  "workbench.tree.indent": 16,
+  "workbench.tree.renderIndentGuides": "always",
+
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.tabSize": 2,
+  "editor.cursorBlinking": "smooth",
+  "editor.fontLigatures": true,
   "editor.formatOnType": true,
   "editor.wordWrap": "on",
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "git.autofetch": true,
-  "oneDarkPro.vivid": true,
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-
+  "editor.fontFamily": "'Operator Mono', 'OperatorMono Nerd Font', 'Operator Mono Light','OperatorMono-Light'",
+  "editor.fontSize": 14,
+  "editor.inlineHints.fontFamily": "'Operator Mono', 'OperatorMono Nerd Font', 'Operator Mono Light', 'OperatorMono-Light'",
+  "editor.inlineHints.fontSize": 14,
+  "editor.codeLensFontFamily": "'Operator Mono', 'Operator Mono Light', 'OperatorMono-Light'",
+  "editor.codeLensFontSize": 14,
   "editor.tokenColorCustomizations": {
     // Theme name (ie Visual Studio Code Dark)
     "[One Dark Pro]": {
@@ -78,54 +51,99 @@
       ]
     }
   },
-  "prettier.singleQuote": true,
-  "prettier.withNodeModules": true,
-  "prettier.jsxSingleQuote": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {},
+  "editor.formatOnPaste": true,
+  "editor.foldingMaximumRegions": 6000,
+
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "debug.console.fontFamily": "'Operator Mono', 'Operator Mono Light', 'OperatorMono-Light'",
+  "debug.console.fontSize": 14,
+
+  "terminal.integrated.fontFamily": "'Operator Mono', 'Operator Mono Light'",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontSize": 14,
+  "terminal.external.windowsExec": "C:\\Users\\xoxo\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
+  "terminal.explorerKind": "external",
+
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "explorer.fileNesting.enabled": true,
+
+  "git.autofetch": true,
   "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+
+  // EXTENSIONS
+
+  // Auto Rename Tag
+  "auto-rename-tag.activationOnLanguage": ["*"],
+
+  // Brackets Pair Colorizer
+  "bracketPairColorizer.depreciation-notice": false,
+
+  // Custom CSS Loader
+  // Fluorescent Highlights (mac)
+  //"vscode_custom_css.imports": ["file:///Users/xoxo/Library/Application Support/Code/User/fluorescent.css"],
+  // Fluorescent Highlights (windows)
+  // "vscode_custom_css.imports": ["file:///C:/Users/xoxo/AppData/Roaming/Code/User/fluorescent.css"],
+
+  // ESlint
   "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+
+  // GitLens
+  "gitlens.gitCommands.skipConfirmations": ["fetch:command", "stash-push:command", "switch:command", "branch-create:command"],
   "gitlens.advanced.messages": {
     "suppressGitMissingWarning": true
   },
-  "editor.tabSize": 2,
+
+  // Kite
+  // "kite.showWelcomeNotificationOnStartup": false,
+  // "kite.showWelcomeNotificationOnStartup": false,
+
+  // Prettier
+  "prettier.singleQuote": true,
+  "prettier.withNodeModules": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.printWidth": 135,
+
+  // One Dark Pro
+  "oneDarkPro.vivid": true,
+  "oneDarkPro.editorTheme": "Just Black",
+
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.maxComputationTime": 0,
+  "json.maxItemsComputed": 500000000000,
+  "json.schemas": [],
+  "vsicons.dontShowNewVersionMessage": true,
+  "scm.inputFontSize": 14,
+  "markdown.preview.fontSize": 14,
+  "livePreview.notifyOnOpenLooseFile": false,
+
+  // Ponicode
+  // "ponicode.token": "31886ed6-df4e-4ffc-8a17-c5860acbbfdb",
+
+  // Svelte for VS Code
+  "svelte.enable-ts-plugin": true,
+
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "diffEditor.ignoreTrimWhitespace": false,
-  "sync.gist": "c02fda1ae2563de53ab6d6a49d00fa78",
-  "terminal.integrated.cursorStyle": "line",
-  "prettier.jsxBracketSameLine": true,
-  "prettier.printWidth": 135,
-  "json.maxItemsComputed": 500000000000,
-  "diffEditor.maxComputationTime": 0,
-  "security.workspace.trust.untrustedFiles": "open",
-  "workbench.preferredDarkColorTheme": "One Dark Pro",
-  "oneDarkPro.editorTheme": "Just Black",
-  "bracketPairColorizer.depreciation-notice": false,
-  "vsicons.dontShowNewVersionMessage": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "scm.inputFontSize": 14,
-  "markdown.preview.fontSize": 14,
-  "terminal.integrated.fontSize": 14,
-  "window.zoomLevel": 1.25,
-  "json.schemas": [],
-  "livePreview.notifyOnOpenLooseFile": false,
-  "git.confirmSync": false,
-  "editor.codeActionsOnSave": {},
-  "beautify.config": "",
-  "editor.formatOnPaste": true,
-  "eslint.format.enable": true,
-  "explorer.compactFolders": false,
-  "explorer.fileNesting.enabled": true,
-  "workbench.tree.indent": 16,
-  "workbench.tree.renderIndentGuides": "always",
-  "gitlens.gitCommands.skipConfirmations": [
-    "fetch:command",
-    "stash-push:command",
-    "switch:command",
-    "branch-create:command"
-  ],
-  "terminal.external.windowsExec": "C:\\Users\\xoxo\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
-  "terminal.explorerKind": "external",
-  "kite.showWelcomeNotificationOnStartup": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
